@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaHangProject", "src\AvaloniaHangProject\AvaloniaHangProject.csproj", "{6A196648-D978-42F2-83A7-00AABB50AEFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaMenuPoC", "src\AvaloniaMenuPoC\AvaloniaMenuPoC.csproj", "{6A196648-D978-42F2-83A7-00AABB50AEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
