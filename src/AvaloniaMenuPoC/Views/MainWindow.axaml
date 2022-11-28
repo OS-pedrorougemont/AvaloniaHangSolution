@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="AvaloniaMenuPoC.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AvaloniaMenuPoC">
+    <DockPanel HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" LastChildFill="False">
+        <Menu DockPanel.Dock="Top" Background="White">
+            <MenuItem Header="_Navigate here with Tab and then press the down key" Background="LightGray">
+                <MenuItem Header="_Pressing right key from here works...">
+                    <MenuItem Header="_It worked..." />
+                    <MenuItem Header="_You can go up and down..." />
+                    <MenuItem Header="_All smooth..." />
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="_Pressing right key here doesn't work...">
+                    <MenuItem Header="_Because I'm not enabled..." IsEnabled="False" />
+                    <MenuItem Header="_I'm not selectable unless you hover me with the mouse..." />
+                    <MenuItem Header="_Neither am I..." />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+    </DockPanel>
+</Window>
